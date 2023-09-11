@@ -22,10 +22,10 @@ game_settings = {
    "nTurns": 100,
 
    # Speed of visualisation ('slow','normal','fast')
-   "visSpeed": 'normal',
+   "visSpeed": 'fast',
 
    # Visualisation resolution
-   "visResolution": (1280, 720),
+   "visResolution": (1500, 1500),
 
    # Wheter to save final games
    "saveFinalGames": True,

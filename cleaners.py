@@ -316,6 +316,9 @@ class Player:
         return agent
 
     # Get a new generation of agents
+
+
+
     def new_generation_agents(self,gen):
 
         # Record game stats in the agent objects
@@ -605,6 +608,7 @@ class CleanersPlay:
 
         # Play the game over a number of turns
         for turn in range(self.game.nTurns):
+
             gameDone = True
 
             self.map[:, :, 1] = 0
@@ -825,6 +829,8 @@ class CleanersPlay:
                 scores[-1] += avatar.cleaned
 
         scores = np.array(scores).astype('int32')
+
+
 
         if len(scores) == 1:
             return scores[0]
